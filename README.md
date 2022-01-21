@@ -1,4 +1,4 @@
-# Rocket Fuel Case - Heterogeneous Treatment Effects Analysis of Experiment Results
+# Analysis of Rocket Fuel Ads Experiment Results by Subgroups
 The case “Rocket Fuel: Measuring the Effectiveness of Online Advertising” is available for purchasing from the Harvard Business School case pack.  
   
 For the analysis we are going to break down results by sub-groups depending on the number of times the individual was targeted for ads (tot_impr). I have created a data set called rocketfuel_deciles that you can use for this purpose. This simply takes the original rocketfuel data and adds a column labeling people into deciles (i.e., 10% groups) by tot_impr. (Note that when there are ties, different programs may break ties to put people into deciles differently. So my deciles won’t necessarily match yours, but should be similar).   
